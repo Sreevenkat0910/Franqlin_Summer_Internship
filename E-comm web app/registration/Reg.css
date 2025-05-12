@@ -1,0 +1,108 @@
+body {
+    font-family: 'Lexend', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+.Registration-form {
+    background: rgba(86, 86, 86, 0.7);
+    padding: 28px;
+    border-radius: 12px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+    width: 400px;
+    max-width: 90%;
+    backdrop-filter: blur(12px); 
+}
+.Registration-title {
+    text-align: center;
+    margin-bottom: 25px;
+    font-size: 28px;
+    color: #101010;
+}
+.input-box {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    border: 1px solid #000000;
+    padding: 10px 15px;
+    border-radius: 8px;
+    margin-bottom: 20px;
+    background-color: #383535a5;
+    flex-wrap: wrap;
+}
+.input-box i {
+    font-size: 18px;
+    color: #787878;
+}
+.input-box input[type="text"],
+.input-box input[type="password"],
+.input-box input[type="textarea"],
+.input-box input[type="date"],
+.input-box select {
+    flex: 1;
+    border: none;
+    outline: none;
+    background: transparent;
+    font-size: 16px;
+    width: 100%;
+}
+
+.input-box input[type="textarea"] {
+    min-height: 60px;
+}
+
+.input-box label {
+    font-size: 14px;
+    margin-right: 10px;
+}
+
+.input-box input[type="radio"] {
+    margin-right: 5px;
+}
+
+.input-box select {
+    font-size: 16px;
+    padding: 5px;
+    border-radius: 5px;
+}
+.register_button {
+    width: 100%;
+    padding: 10px;
+    background-color: #1c1c1c;
+    color: rgb(163, 163, 163);
+    font-size: 16px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.register_button:hover {
+    background-color: #000000;
+}
+.logifacc {
+    text-align: center;
+    font-size: 14px;
+    margin-top: 20px;
+}
+
+.logifacc a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.logifacc a:hover {
+    text-decoration: underline;
+}
+.input-box input::placeholder,
+.input-box select,
+.input-box input[type="date"] {
+    color: #787878;
+    font-family: 'Lexend', sans-serif;
+}
+.input-box label {
+    color: #787878;
+    font-family: 'Lexend', sans-serif;
+    font-size: 14px;
+}
