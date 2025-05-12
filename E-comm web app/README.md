@@ -1,5 +1,7 @@
 # 🛒 E-Commerce UI – Login & Registration
 
+## WEEK - 1 Progress
+
 A simple front-end UI for an e-commerce platform with **Home**, **Login**, and **Registration** pages built using **HTML, CSS, and JavaScript**.
 
 ---
@@ -7,11 +9,15 @@ A simple front-end UI for an e-commerce platform with **Home**, **Login**, and *
 ## 📁 Project Structure  
 
 /e-commerce-ui
-├── home.html # Home/Index Page
-├── login.html # Login Page
-├── register.html # Registration Page
-├── styles.css # CSS Styles for each HTML page 
-└── script.js # JavaScript for each HTML page(Form Validation)
+├── Home.html # Home/Index Page
+├── Home.css  # CSS Styles for Home Page
+├── Home.js # JavaScript for validation for Home Page
+├── Login.html # Login Page
+├── Login.css # CSS Styles for Login Page
+├── Login.js # JavaScript for validation for Login Page
+├── Reg.html # Registration Page
+├── Reg.css # CSS Styles for Registration Page
+└── Reg.js # JavaScript for validation for Registration Page.
 
 **
 ---
@@ -62,7 +68,7 @@ A simple front-end UI for an e-commerce platform with **Home**, **Login**, and *
 
 ---
 
-## 🚀 Run the Project
+## To Run the Project
 
 1. **Clone the Repo**
 ```bash
