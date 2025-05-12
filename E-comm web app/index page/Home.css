@@ -1,0 +1,71 @@
+body {
+    background-image: url('bg3.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    min-height: 100vh;
+    margin: 0;
+    padding: 0;
+    font-family: 'Lexend', sans-serif; 
+    color: #101010;
+    text-align: center;
+}
+
+.header-section {
+    background-color: #464646;
+    padding: 1px 160px; 
+    border-radius: 6px;
+    width: 80%;       
+    max-width: 900px;   
+    margin: 10px auto; 
+}
+.sub-section {
+    background-color: #464646;
+    padding: 10px 160px;  
+    border-radius: 6px;
+    width: 80%;           
+    max-width: 900px;     
+    margin: 10px auto;   
+}
+.sub-section button {
+    margin: 10px;
+    padding: 14px 28px;          
+    font-size: 16px;                
+    font-weight: bold;
+    border: none;
+    border-radius: 8px;
+    background-color: #1c1c1c;
+    color: white;
+    cursor: pointer;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);  
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.sub-section button:hover {
+    background-color: #000000;
+    transform: scale(1.05);                         
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.4);        
+}
+
+
+.sub-section button a {
+    text-decoration: none;
+    color: white;
+}
+
+h1, h3 {
+    margin: 10px 0;
+}
+
+.sub-section h4 {
+    white-space: rap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+.banner-image {
+    width: 100%;
+    height: auto;
+    max-height: 60vh;   
+    margin: 10px 0;
+    object-fit: contain;
+}
